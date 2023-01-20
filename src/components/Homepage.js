@@ -33,6 +33,8 @@ function Homepage() {
 
     useEffect(() => {
 
+        document.title = "saEd Contact";
+
         for (let i = 0; i < localStorage.length; i++) {
 
             keys[i] = localStorage.key(i);
@@ -70,10 +72,10 @@ function Homepage() {
             contacts.push(JSON.parse(localStorage.getItem(keys[i])))
 
         }
-        
+
         setSearchItem({ ...searchItem, text: e.target.value });
         theContacts = contacts.filter(contact => {
-            return contact.fullName.toLowerCase().includes(e.target.value);
+            return contact.fullName.toLowerCase().includes(e.target.value.toLowerCase());
         })
         setfavoriteState([])
         setunfavoriteState([])

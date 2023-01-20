@@ -96,7 +96,7 @@ function AddContact() {
                         {errors.lastName && touched.lastName && <div><span>{errors.lastName}</span></div>}
                     </div>
                     <div className={styles.formFeild}>
-                        <label>Phoe number:</label>
+                        <label>Phone number:</label>
                         <input type="number" name="phoneNumber" value={data.phoneNumber} onChange={changeHandler} onFocus={focusHandler} />
                         {errors.phoneNumber && touched.phoneNumber && <div><span>{errors.phoneNumber}</span></div>}
                     </div>
