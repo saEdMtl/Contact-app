@@ -1,0 +1,97 @@
+@font-face {
+    font-family: roman;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/roman-picisan-gfxdownload.ir/RomanPicisan/Web-TT/RomanPicisan-Regular.ttf') format('ttf'),
+        url('../fonts/roman-picisan-gfxdownload.ir/RomanPicisan/Web-TT/RomanPicisan-Regular.woff') format('woff');
+}
+
+.container {
+    background-color: #0C79D7;
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    position: fixed;
+    left: 35%;
+}
+
+.main {
+    margin-right: 480px;
+    margin-top: 100px;
+    width: 67%;
+}
+
+.title {
+    font-size: 52px;
+    font-weight: bold;
+    font-family: roman;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    position: relative;
+    top: 30px;
+}
+
+.pic {
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 992px) {
+
+    .title {
+        font-size: 46px;
+    }
+
+}
+
+@media screen and (max-width: 830px) {
+
+    .pic {
+        width: 450px;
+        height: 350px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .title {
+        font-size: 42px;
+    }
+
+    .pic {
+        width: 400px;
+        height: 300px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .title {
+        font-size: 36px;
+    }
+
+    .pic {
+        width: 300px;
+        height: 200px;
+    }
+
+}
+
+@media screen and (max-width: 460px){
+
+    .title {
+        font-size: 26px;
+        margin-bottom: 10px;
+    }
+
+    .pic {
+        width: 250px;
+        height: 150px;
+    }
+
+}

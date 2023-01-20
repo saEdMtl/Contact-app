@@ -1,0 +1,160 @@
+@font-face {
+    font-family: roman;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/roman-picisan-gfxdownload.ir/RomanPicisan/Web-TT/RomanPicisan-Regular.ttf') format('ttf'),
+        url('../fonts/roman-picisan-gfxdownload.ir/RomanPicisan/Web-TT/RomanPicisan-Regular.woff') format('woff');
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+.all {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+.logo img {
+    width: 90px;
+    height: 75px;
+    margin-bottom: 30px;
+}
+
+.title {
+    text-align: center;
+    color: #211F1E;
+    font-size: 42px;
+    margin-bottom: 32px;
+    margin-top: 15px;
+    font-family: roman;
+}
+
+.searchBox {
+    display: flex;
+}
+
+.search {
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    height: 30px;
+    display: table;
+    margin: 0 auto;
+    background-color: #F2F3F3;
+    border: 0;
+}
+
+.contactNames {
+    position: relative;
+    right: -15px;
+}
+
+.myContacts {
+    font-family: roman;
+    font-size: 22px;
+    color: #211F1E;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.contacts {
+    width: 35%;
+    height: 100vh;
+    border-right: 1px solid rgba(108, 108, 108, 0.49);
+    display: block;
+}
+
+.addContact {
+    font-family: roman;
+    text-decoration: none;
+    font-size: 40px;
+    color: #0C79D7;
+    margin: 0 15px 0 0;
+}
+
+.details {
+    width: 65%;
+}
+
+.show {
+    display: contents;
+}
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 992px) {
+
+    .title {
+        font-size: 34px;
+    }
+
+    .myContacts {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 890px) {
+
+    .search{
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .title {
+        font-size: 28px;
+    }
+
+    .myContacts {
+        font-size: 18px;
+    }
+
+    .logo{
+        margin-right: 0;
+    }
+
+}
+
+@media screen and (max-width: 576px){
+
+    .title{
+        font-size: 22px;
+    }
+
+    .myContacts{
+        font-size: 16px;
+    }
+        
+    }
+
+    @media screen and (max-width: 460px){
+
+        .title {
+            font-size: 22px;
+        }
+    
+        .myContacts{
+            font-size: 14px;
+        }
+        .search{
+            width: 55%;
+            font-size: 10px;
+        }
+
+        .addContact{
+            font-size: 34px;
+        }
+    
+    }

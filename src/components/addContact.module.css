@@ -1,0 +1,208 @@
+@font-face {
+    font-family: roman;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/roman-picisan-gfxdownload.ir/RomanPicisan/Web-TT/RomanPicisan-Regular.ttf') format('ttf'),
+        url('../fonts/roman-picisan-gfxdownload.ir/RomanPicisan/Web-TT/RomanPicisan-Regular.woff') format('woff');
+}
+
+.main {
+    background-color: #0C79D7;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.banana {
+    color: #f9f9f9;
+    text-align: center;
+    display: flex;
+    width: 55%;
+    height: 100vh;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 35%;
+    bottom: 8%;
+}
+
+.banana h1 {
+    font-size: 54px;
+    width: 122%;
+    margin-bottom: 40px;
+}
+
+.banana p {
+    font-size: 24px;
+    margin-top: -9px;
+    margin-bottom: 25px;
+}
+
+.banana strong {
+    font-size: 32px;
+}
+
+.banana h3 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.container {
+    width: 60%;
+    height: 95vh;
+    background-color: #f9f9f9;
+    color: black;
+    justify-content: end;
+    position: relative;
+    left: 75%;
+    font-family: roman;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.formFeild {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.formFeild label {
+    margin-left: 25px;
+    font-size: 16px;
+}
+
+.formFeild input {
+    width: 90%;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.671);
+    border-radius: 8px;
+    margin-left: 25px;
+    padding: 2px 0 2px 4px;
+    position: relative;
+    right: 7px;
+}
+
+.formFeild span {
+    margin-left: 25px;
+    font-size: 12px;
+    color: red;
+    position: absolute;
+    margin-bottom: 50px;
+}
+
+.selectFeild {
+    padding: 5px;
+    display: flex;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.banana button {
+    background-color: #0C79D7;
+    color: #f9f9f9;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-top: 27px;
+    margin-left: 45px;
+}
+
+.banana .cancel {
+    text-decoration: none;
+    color: red;
+    margin-top: 10px;
+    margin-right: 5px;
+    padding: 20px;
+}
+
+.banana select {
+    padding: 5px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1100px) {
+
+    .formFeild input {
+        right: 10px;
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+
+    .formFeild input {
+        right: 5px;
+    }
+
+    .logo {
+        width: 25%;
+    }
+
+    .container {
+        width: 75%;
+    }
+
+    .banana h3 {
+        font-size: 22px;
+    }
+
+    .banana h1 {
+        font-size: 44px;
+    }
+
+    .banana strong {
+        font-size: 22px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .formFeild input {
+        right: 10px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .logo {
+        display: none;
+    }
+
+    .container {
+        width: 75%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        left: 0;
+        justify-content: center;
+
+    }
+
+    .banana {
+        width: 100%;
+        margin: auto;
+    }
+
+    .banana h3 {
+        margin-top: 0;
+    }
+
+    .banana button {
+        margin-top: 0;
+    }
+
+    .formFeild {
+        margin-bottom: 5px;
+    }
+}

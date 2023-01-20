@@ -1,0 +1,385 @@
+@font-face {
+    font-family: roman;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/roman-picisan-gfxdownload.ir/RomanPicisan/Web-TT/RomanPicisan-Regular.ttf') format('ttf'),
+        url('../fonts/roman-picisan-gfxdownload.ir/RomanPicisan/Web-TT/RomanPicisan-Regular.woff') format('woff');
+}
+
+.container {
+    width: 100%;
+    position: fixed;
+}
+
+.container h3 {
+    text-align: center;
+    font-family: roman;
+    font-size: 34px;
+    position: relative;
+    right: 0px;
+    width: 65%;
+    padding: 0 0 40px 0;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 10%;
+    margin-top: 10px;
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.detail {
+    display: flex;
+    width: 65%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.detail p {
+    font-size: 11px;
+    color: #BEBFBF;
+}
+
+.list {
+    display: flex;
+    margin: 0 auto;
+    gap: 350px;
+}
+
+li {
+    list-style: none;
+    font-family: roman;
+    font-size: 16px;
+    margin-left: 0;
+}
+
+.contactInfo {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+img {
+    width: 36px;
+    height: 36px;
+    margin-right: 15px;
+}
+
+button {
+    background: 0;
+    border: 0;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.main {
+    background-color: #0C79D7;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.editContainer h3 {
+    font-size: 24px;
+}
+
+.editContainer {
+    width: 250%;
+    height: 95vh;
+    background-color: #f9f9f9;
+    color: black;
+    justify-content: end;
+    position: relative;
+    font-family: roman;
+    border-radius: 8px;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 110px;
+}
+
+.formFeild {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.formFeild label {
+    margin-left: 25px;
+    font-size: 16px;
+}
+
+.formFeild input {
+    width: 90%;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.621);
+    border-radius: 8px;
+    margin-left: 25px;
+    padding: 5px;
+}
+
+.formFeild span {
+    margin-left: 25px;
+    font-size: 12px;
+    color: red;
+    position: absolute;
+    margin-bottom: 50px;
+}
+
+.selectFeild {
+    padding: 5px;
+    display: flex;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.editContainer .save {
+    background-color: #0C79D7;
+    color: #f9f9f9;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.editContainer .cancel {
+    text-decoration: none;
+    color: red;
+    margin-top: 10px;
+    margin-right: 5px;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+@media screen and (max-width: 1450px) {
+
+    .editContainer{
+        margin-left: 90px;
+    }
+
+}
+
+@media screen and (max-width: 1370px) {
+
+    .editContainer{
+        margin-left: 80px;
+    }
+
+}
+
+@media screen and (max-width: 1320px) {
+
+    .editContainer{
+        margin-left: 70px;
+    }
+
+}
+
+@media screen and (max-width: 1240px) {
+
+    .editContainer{
+        margin-left: 60px;
+    }
+
+}
+
+@media screen and (max-width: 1160px) {
+
+    .editContainer{
+        margin-left: 50px;
+    }
+
+}
+
+@media screen and (max-width: 1120px) {
+
+    .editContainer{
+        margin-left: 40px;
+    }
+
+}
+
+@media screen and (max-width: 1060px) {
+
+    .editContainer{
+        margin-left: 30px;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .editContainer{
+        margin-left: 20px;
+    }
+
+}
+
+@media screen and (max-width: 940px) {
+
+    .editContainer{
+        margin-left: 10px;
+    }
+
+}
+
+@media screen and (max-width: 880px) {
+
+    .editContainer{
+        margin-left: 0px;
+    }
+
+}
+
+@media screen and (max-width: 830px) {
+
+    .editContainer{
+        margin-left: 0px;
+        position: absolute;
+        width: 63%;
+    }
+
+    .editContainer h3{
+        font-size: 21px;
+    }
+
+    .editContainer label{
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    .list {
+        gap: 300px;
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+
+    .list {
+        gap: 250px;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .list {
+        gap: 200px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .list {
+        gap: 150px;
+    }
+
+    .container h3 {
+        font-size: 30px;
+    }
+
+    li {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .list {
+        gap: 100px;
+    }
+
+    .container h3 {
+        font-size: 28px;
+    }
+
+    li {
+        font-size: 14px;
+    }
+
+    img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .icon img {
+        width: 25px;
+        height: 25px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .list {
+        gap: 50px;
+    }
+
+    .container h3 {
+        font-size: 24px;
+    }
+
+    li {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .list {
+        display: block;
+    }
+
+    .contactInfo {
+        margin-bottom: 30px;
+    }
+
+    .detail {
+        margin-top: 0;
+    }
+
+    .icon img {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+
+    .container h3 {
+        font-size: 20px;
+    }
+
+    li {
+        font-size: 11px;
+    }
+
+    li p {
+        font-size: 10px;
+    }
+
+}
